@@ -85,8 +85,10 @@ volumePermissions:
 ##
 securityContext:
   enabled: true
-  fsGroup: 1001
-  runAsUser: 1001
+  fsGroup: 0
+  runAsUser: 0
+#  fsGroup: 1001
+#  runAsUser: 1001
 
 ## Pod Service Account
 ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
